@@ -2,63 +2,69 @@
 
 const data = [
   {
-    id: 1,
-    img: "../img/jaqueta.svg",
+    id: 0,
+    img: "./img/jaqueta.svg",
     nameItem: "Lightweight Jacket",
     description:
-      "Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...",
+      "Adicione um pouco de energia ao seu guarda-roupa de invero...",
     value: 100,
     addCart: "Adicionar ao carrinho",
-    tag: ["Camisetas"],
+    tag: ["Camisas"],
+  
+  },
+  {
+    id: 1,
+    img: "./img/gorro.svg",
+    nameItem: "Black Hat",
+    description:
+      "O gorro Next.js chegou! Esta beldade bordada tem um ajuste...",
+    value: 100,
+    addCart: "Adicionar ao carrinho",
+    tag: ["Acessórios"],
+ 
   },
   {
     id: 2,
-    img: "../img/gorro.svg",
-    nameItem: "Black Hat",
+    img: "./img/mascara.svg",
+    nameItem: "Mask",
     description:
-      "O gorro Next.js chegou! Esta beldade bordada tem um ajuste confortável que garante que...",
+      "Esta máscara facial durável é feita de duas camadas ...",
     value: 100,
     addCart: "Adicionar ao carrinho",
     tag: ["Acessórios"],
+    
   },
   {
     id: 3,
-    img: "../img/mascara.svg",
-    nameItem: "Mask",
+    img: "./img/camiseta_branca.svg",
+    nameItem: "T-Shirt",
     description:
-      "Esta máscara facial durável é feita de duas camadas de tecido tratado e possui presilhas...",
-    value: 40,
+      "Esta t-shirt é imprescindível no seu guarda-roupa...",
+    value: 100,
     addCart: "Adicionar ao carrinho",
-    tag: ["Acessórios"],
+    tag: ["Camisas"],
+    
   },
   {
     id: 4,
-    img: "../img/camiseta_preta.svg",
-    nameItem: "T-Shirt",
+    img: "./img/camiseta_preta.svg",
+    nameItem: "Short-Sleeve T-Shirt",
     description:
-      "Esta t-shirt é imprescindível no seu guarda-roupa, combinando o caimento intemporal de...",
+      "Agora você encontrou a camiseta básica do seu guarda-roupa...",
     value: 100,
     addCart: "Adicionar ao carrinho",
-    tag: ["Camisetas"],
+    tag: ["Camisas"],
+    
   },
   {
     id: 5,
-    img: "../img/camiseta_branca.svg",
-    nameItem: "Short-Sleeve T-Shirt",
+    img: "./img/moletom.svg",
+    nameItem: "Sweatshirt",
     description:
-      "Agora você encontrou a camiseta básica do seu guarda-roupa. É feito de um mais grosso...",
+      "Proteja-se dos elementos com este moletom. Esta jaqueta de poliést...",
     value: 100,
     addCart: "Adicionar ao carrinho",
-    tag: ["Camisetas"],
-  },
-  {
-    id: 6,
-    img: "../img/moletom.svg",
-    nameItem: "Champion Packable Jacket",
-    description:
-      "Proteja-se dos elementos com esta jaqueta embalável Champion. Esta jaqueta de poliést...",
-    value: 100,
-    addCart: "Adicionar ao carrinho",
-    tag: ["Camisetas"],
+    tag: ["Camisas"],
+    
   },
 ];
