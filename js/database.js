@@ -10,7 +10,7 @@ const data = [
     value: 100,
     addCart: "Adicionar ao carrinho",
     tag: ["Camisas"],
-  
+   
   },
   {
     id: 1,
